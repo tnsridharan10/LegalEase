@@ -37,7 +37,7 @@ from ai_core.gemini_generator import GeminiDocumentGenerator, GenerationError  #
 from ai_core.generator import (PREVIEW_CSS, format_docx, format_html_preview,  # noqa: E402
                                format_pdf, format_txt, safe_filename, sanitize_text)
 
-BACKEND_URL = config.BACKEND_URL
+BACKEND_URL = "https://legalease-vg6b.onrender.com"
 APP_MODE = os.getenv("APP_MODE", "auto").strip().lower()
 CUSTOM_TYPE = "Other (type your own)..."
 
